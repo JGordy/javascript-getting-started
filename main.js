@@ -4,25 +4,25 @@
 // What does `givenName` equal right now?
 let givenName;
 // A: undefined
-console.log(givenName)
+
 
 // 2.
 // What is `givenName` set to right now?
 givenName = "Tim";
 // A: Tim
-console.log(givenName)
+
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
 // A: Tim
 
-console.log(givenName)
+
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
 // A: Hello, how are you? Tim
-console.log(greeting)
+
 
 // 5.
 // What is `math` set to?
@@ -30,13 +30,13 @@ let high = 50;
 let low  = 10;
 let math = high - low;
 // A: 40
-console.log(math)
+
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A:
-console.log(math)
+// A: 45
+
 
 // 7.
 // Create a variable to calculate Tim's age
@@ -46,26 +46,26 @@ let born = 1984;
 let today = 2017;
 // A:
 let timsAge = givenName + " is " + (today - born) + " years old"
-console.log(timsAge)
+
 // 8.
 // Adjust this code. Store some information in the following variables.
 // A:
 let yourName = "Bill";
 let instructorName = "Jane";
-console.log(yourName)
-console.log(instructorName)
+
+
 // 9.
 // Update the variables `yourName` and `instructorName` so the expression below reads correctly.
 // A:
 yourName = "Joe";
 instructorName = "Isaac";
 
-console.log(yourName)
-console.log(instructorName)
+
+
 // This statement should read correctly
 let statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
 
-console.log(statement)
+
 // 10.
 // We've created a variable named after each primitive type.
 // Use the `=` operator to assign a value to each variable matching the type in the name.
@@ -79,58 +79,47 @@ myNumber = 24;
 myString = "24";
 myBoolean = true;
  // (don't assign to keep undefined)
-console.log(myNumber)
-console.log(myString)
-console.log(myBoolean)
-console.log(myUndefined)
+
+
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
-// A. false
+// A. true
 
-console.log(x)
 // 12.
 let y = (false == "");
-// A. false
-console.log(y)
+// A. true
 
 // 13.
 let z = (0 == "");
-// A. false
-console.log(z)
+// A. true
 
 // 14.
 let a = (null == null);
 // A. true
-console.log(a)
 
 // 15.
 let b = (undefined == undefined);
 // A. true
-console.log(b)
 
 // 16.
 let c = (undefined == null);
-// A. false
-console.log(c)
+// A. true
 
 // 17.
 let d = (null == false);
 // A. false
-console.log(d)
 
 // 18.
 let e = (NaN == null);
 // A. false
-console.log(e)
 
 
 // 19.
 let f = (NaN == NaN);
-// A. true
-console.log(f)
+// A. false
 
 // 20.
 // Fix the `if...else` statement below by adding an `if` keyword and conditional expression.
@@ -211,7 +200,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A: False!
+// A: True!
 
 
 // 28.
